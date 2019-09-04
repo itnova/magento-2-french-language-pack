@@ -4,6 +4,7 @@ In this free topic, **Magento 2 French Language Pack** is referred to give you t
 
 Read more [Magento 2 French Language Pack](https://www.mageplaza.com/magento-2-french-language-pack.html)
 
+![Mageplaza French language pack](https://i.imgur.com/qjWPj1W.png)
 
 ## Overview
 
@@ -19,7 +20,7 @@ Read more [Magento 2 French Language Pack](https://www.mageplaza.com/magento-2-f
 
 This is status of French Language Pack, you can see how many percentage of this project has been done.
 
-![language pack](http://progressed.io/bar/85?title=translated)
+![language pack](http://progressed.io/bar/84?title=translated)
 
 It is not fully translated? Feel free to contribute:
 - [On Crowdin](https://crowdin.com/project/magento-2): It takes time to approve your contribution by Magento team.
@@ -117,18 +118,20 @@ To download and install French pack manually, you have to access to your server 
 
 #### Step 1: Unzip and upload
 
-Unzip the compressed file and upload file `master.zip` into `app/i18n/Mageplaza/fr_fr/fr_FR.csv`
+Unzip the compressed file and upload file `master.zip` into `app/i18n/Mageplaza/fr_fr/`
 
-See this screenshot
+See this screenshot:
 
-![French pack](https://i.imgur.com/tS668yC.png)
+![French pack](https://cdn3.mageplaza.com/media/general/language-pack.png)
+
+This language pack code is: **fr_fr**
 
 #### Step 2: Flush cache
 
 Follow this guide to [Flush Cache on your Magento 2 store](https://www.mageplaza.com/kb/how-flush-enable-disable-cache.html)
 
 
-## 3. How to active French language pack 
+## 3. How to Active the French language pack 
 
 Now time to active the French language pack for your Magento 2 store. From Magento 2 admin panel, navigate to `Stores > Configuration > General > Locale Options`
 ![{{Magento 2 French language pack}}](https://cdn.mageplaza.com/media/general/aPSUA0l.png)
@@ -143,7 +146,7 @@ Contribute to this language at :
 
 ## 5. Supported Magento versions
 
-It supports all Magento 2 versions include [Magento 2 open-source](https://www.mageplaza.com/download-magento/) (Community), Magento 2 Commerce (EE).
+It supports all Magento 2 versions include [Magento 2 open-source](https://www.mageplaza.com/download-magento/) (Community), Magento 2 Commerce (EE), Magento Cloud, Magento B2B, Magento MSI.
 
 
 - Magento v2.0.x
