@@ -4,7 +4,7 @@ In this free topic, **Magento 2 French Language Pack** is referred to give you t
 
 Read more [Magento 2 French Language Pack](https://www.mageplaza.com/magento-2-french-language-pack.html)
 
-![Mageplaza French language pack](https://i.imgur.com/qjWPj1W.png)
+![Mageplaza French language pack](https://cdn3.mageplaza.com/media/general/qjWPj1W.png)
 
 ## Overview
 
@@ -20,7 +20,7 @@ Read more [Magento 2 French Language Pack](https://www.mageplaza.com/magento-2-f
 
 This is status of French Language Pack, you can see how many percentage of this project has been done.
 
-![language pack](http://progressed.io/bar/84?title=translated)
+![French language pack process](https://progress-bar.dev//?title=completed)
 
 It is not fully translated? Feel free to contribute:
 - [On Crowdin](https://crowdin.com/project/magento-2): It takes time to approve your contribution by Magento team.
@@ -38,13 +38,24 @@ Install the French language pack via composer is never easier.
 
 **Install French pack**:
 
+With Social Proof (recommend):
+
+```
+composer require mageplaza/magento-2-french-language-pack:dev-master avada/module-proofo
+php bin/magento setup:static-content:deploy fr_FR
+php bin/magento indexer:reindex
+php bin/magento cache:clean
+php bin/magento cache:flush
+```
+
+Without Social Proof:
+
 ```
 composer require mageplaza/magento-2-french-language-pack:dev-master
 php bin/magento setup:static-content:deploy fr_FR
 php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
-
 ```
 
 
